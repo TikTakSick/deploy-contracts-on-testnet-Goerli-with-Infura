@@ -37,9 +37,9 @@ $ export MNEMONIC="bus make ... hello"
 その後，繋げたいネットワークにはチェックマークをつける必要がある．
 ![画像1](https://github.com/TikTakSick/deploy-contracts-on-testnet-Goerli-with-Infura/assets/117717470/48f70e2a-53c3-4ef2-ac80-f0e73a6345e4)
 
-その後，教科書に書かれているように```$ export INFURA_PROJECT_ID="edfs13~"```のように行えば良い
+次に，教科書に書かれているように```$ export INFURA_PROJECT_ID="edfs13~"```のように行えば良い
 
-その後，以下のようにtruffle-config.jsを書く．
+そして，以下のようにtruffle-config.jsを書く．
 
 
 ```js
