@@ -65,8 +65,10 @@ $ export MNEMONIC="bus make ... hello"
 ```
 
 その他
-- mnemonicとproject_idの設定に関して，```export ~```ではなく，truffle-config.js内に直接代入する方法でも良い．
+- mnemonicとproject_idの設定に関して，```$ export ~```だけでなく，```.env```ファイルを用いた方法や，truffle-config.js内に直接代入する方法でも良い．
 - デプロイする際は，MetaMask等のウォレットを通して，ブロックチェーン上にスマートコントラクトをデプロイすることになり,Goerli用のETH(Ether）が必要になる．
+  - そのため,Faucetサービスを通して自身のウォレットにETH（ETHER）を得る必要がある．
+  - FaucetサービスのURL集について：[Faucet Link](https://faucetlink.to/)
 - 私の環境では，ウォレットにETHを用意したとしてもデプロイできずにエラーが出力されたため，truffle-config.jsに関してはgasの設定をしておくべきかもしれない．
 
 
